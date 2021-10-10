@@ -12,7 +12,10 @@ function loadOtters(query) {
                   <p class="card-text">${otter.desc}</p>
                 </div>              
                 <div class="card-footer">
+                <div class="hstack text-center gap-3">
                 <a href="${otter.link}" class="btn">Wikipedia</a>
+                <a href="https://www.google.com/search?q=${otter.common}" class="btn">Google</a>
+                </div>
                 </div>
             </div>
     </div>`;
