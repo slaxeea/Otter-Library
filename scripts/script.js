@@ -8,7 +8,7 @@ function loadOtters(query) {
             <div class="card h-100 w-75" >
                 <img src="${otter.img}" class="card-img-top" alt="otter pic">
                 <div class="card-body">
-                  <h5 class="card-title">${otter.name}</h5>
+                  <h5 class="card-title">${otter.common}</h5>
                   <p class="card-text">${otter.desc}</p>
                 </div>              
                 <div class="card-footer">
@@ -17,8 +17,9 @@ function loadOtters(query) {
             </div>
     </div>`;
     let name = otter.name.toString().toLowerCase();
+    let common = otter.common.toString().toLowerCase();
     query = query.toString().toLowerCase();
-      if (query == "" || name == query || name.includes(query)) {
+      if (query == "" || name == query  || common == query || common.includes(query) || name.includes(query)) {
         $("#ankor").append(divstring);
       }
     });

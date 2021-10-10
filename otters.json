@@ -2,72 +2,84 @@
   "otters": [
     {
       "name": "lutra",
+      "common": "Lutra",
       "desc": "The most widely distributed member of the otter subfamily, it is found in the waterways and coasts of Europe, many parts of Asia, and parts of northern Africa. The Eurasian otter has a diet mainly of fish, and is strongly territoria",
       "link": "https://en.wikipedia.org/wiki/Lutra",
       "img": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Fischotter%2C_Lutra_Lutra.JPG"
     },
     {
       "name": "hydrictis",
+      "common": "Hydrictis",
       "desc": " The spotted-necked otter is a relatively small species. The tail is long and muscular. The head is broad with a short muzzle, small rounded ears, and a hairless nose pad. The teeth are adapted for consuming fish.",
       "link": "https://en.wikipedia.org/wiki/Hydrictis",
       "img": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Spotted-necked_otter_1.jpg"
     },
     {
       "name": "lutrogale",
+      "common": "Lutrogale",
       "desc": "The smooth-coated otter is found in many Asian countries. It lives in areas where fresh water is plentiful such as wetlands, seasonal swamps, rivers, lakes and rice paddies.",
       "link": "https://en.wikipedia.org/wiki/Lutrogale",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Smooth-coated_Otter_%2814157590954%29.jpg/1280px-Smooth-coated_Otter_%2814157590954%29.jpg"
     },
     {
       "name": "pteronura",
+      "common": "Pteronura",
       "desc": "It is one of the most endangered mammal species in the Neotropics. The species was listed as endangered in 1999 and wild population estimates are below 5,000.",
       "link": "https://en.wikipedia.org/wiki/Pteronura",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Giant_otters_%28Pteronura_brasiliensis%29.jpg/1280px-Giant_otters_%28Pteronura_brasiliensis%29.jpg"
     },
     {
       "name": "lontra canadensis",
+      "common": "North American river otter",
       "desc": "The North American river otter is a semiaquatic mammal endemic to the North American continent found in and along its waterways and coasts. It is equally versatile in the water and on land.",
       "link": "https://en.wikipedia.org/wiki/North_American_river_otter",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Northern_River_Otter_on_Seedskadee_NWR_%2822802102984%29.jpg/1280px-Northern_River_Otter_on_Seedskadee_NWR_%2822802102984%29.jpg"
     },
     {
       "name": "lontra provocax",
+      "common": "Southern river otter",
       "desc": "The southern river otter (Lontra provocax) is a species of otter that lives in Chile and Argentina. This medium-sized otter's body can grow up to 2.5 ft (70 cm) long.",
       "link": "https://en.wikipedia.org/wiki/Southern_river_otter",
       "img": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Lontra_provocax.jpg"
     },
     {
       "name": "lontra longicaudis",
+      "common": "neotropical otter",
       "desc": "The neotropical otter is an otter species found in South America and Trinidad. It is physically similar to the northern and southern river otters.",
       "link": "https://en.wikipedia.org/wiki/Neotropical_otter",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Lontra_longicaudis_4.jpeg/1280px-Lontra_longicaudis_4.jpeg"
     },
     {
       "name": "lontra felina",
+      "common": "Marine otter",
       "desc": "The marine otter is a relatively unknown South American mammal. It is the smallest marine mammal. They found in areas of South America, close to shore.",
       "link": "https://en.wikipedia.org/wiki/Marine_otter",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lfelina.jpg/1280px-Lfelina.jpg"
     },
     {
       "name": "aonyx capensis",
+      "common": "African clawless otters",
       "desc": "African clawless otters have thick, smooth fur with almost silky underbellies. Paws are partially webbed with five fingers. They are the third largest otter on average.",
       "link": "https://en.wikipedia.org/wiki/African_clawless_otter",
       "img": "https://upload.wikimedia.org/wikipedia/commons/6/69/Aonyx_capensis%2C_male%2C_Shamvura.jpg"
     },
     {
       "name": "aonyx cinereus",
+      "common": "Asian small-clawed otter",
       "desc": "It has short claws that do not extend beyond the pads of its webbed digits. It is listed as Vulnerable on the IUCN Red List, and is threatened by habitat loss.",
       "link": "https://en.wikipedia.org/wiki/Asian_small-clawed_otter",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Zwergotter-Portr%C3%A4t.jpg/330px-Zwergotter-Portr%C3%A4t.jpg"
     },
     {
       "name": "aonyx congicus",
+      "common": "Congo clawless otter",
       "desc": "The Congo clawless otter is found only in Africa and is threatened by habitat loss. Very little is known about this species.  It can be found in temperate and grassland.",
       "link": "https://en.wikipedia.org/wiki/Congo_clawless_otter",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Water_Animal.jpg/263px-Water_Animal.jpg"
     },
     {
       "name": "enhydra lutris",
+      "common": "Sea otter",
       "desc": "The sea otter is native to the coasts of the northern and eastern North Pacific Ocean. It can walk on land, but prefers to live in the ocean.",
       "link": "https://en.wikipedia.org/wiki/Sea_otter",
       "img": "https://upload.wikimedia.org/wikipedia/commons/0/02/Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg"
