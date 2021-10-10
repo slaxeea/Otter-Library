@@ -36,3 +36,10 @@
     border: 1px solid var(--grey);
     border-radius: 5px;
 }
+.link{  
+  color: var(--white);
+  text-decoration: none;
+}.link:hover{  
+  color: var(--white);
+  text-decoration: none;
+}
