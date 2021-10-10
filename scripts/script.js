@@ -12,7 +12,7 @@ function loadOtters(query) {
                   <p class="card-text">${otter.desc}</p>
                 </div>              
                 <div class="card-footer">
-                    <small class="text-muted">  </small>
+                <a href="${otter.link}" class="btn">Wikipedia</a>
                 </div>
             </div>
     </div>`;
