@@ -31,16 +31,29 @@
     <div class="title">
         <nav class="navbar navbar-light">
             <div class="container-fluid">
-                <h2 class="navbar-text">Otter Library</h2>
-                <form class="d-flex" id="form">
-                    <input id="search-text" class="form-control me-2" placeholder="Search" aria-label="Search">
-                    <button id="search-btn" class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <a href="index.html" class="link">
+                    <h2 class="navbar-text">Otter Library</h2>
+                </a>
             </div>
         </nav>
 
-        <div class="row row-cols-1 row-cols-lg-2 g-4" id="ankor">
+        <div class="" id="ankor">
         </div>
+
+        <hr>
+
+        <nav>
+            <ul class="pagination justify-content-center">
+                <div class="hstack gap-3 pageination-container">
+                    <li class="page-item btn">
+                        <a class="link" id="prev">Previous</a>
+                    </li>
+                    <li class="page-item btn">
+                        <a class="link" id="next" href="#">Next</a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
 
         <div class="container footer">
             <footer class="py-3 my-4">
@@ -57,17 +70,23 @@
 
     <script>
         $(document).ready(function () {
-            loadOtters("");
+            if (localStorage.getItem("otterIndex") == null) {
+                localStorage.setItem("otterIndex", 0);
+                loadOtterByIndex(0);
+            } else {
+                index = parseInt(localStorage.getItem("otterIndex"));
+                loadOtterByIndex(index);
+            }
         })
-        $("#form").submit(function (e) {
-            e.preventDefault();
-            query = $("#search-text").val().toString().toLowerCase();
-            loadOtters(query);
-        });
-        $('#search-text').on('input', function () {
-            query = $(this).val().toString().toLowerCase();
-            loadOtters(query);
-        });
+        $("#next, #prev").click(function () {
+            text = ($(this).text());
+            var index = (localStorage.getItem("otterIndex"));
+            index = parseInt(index);
+            index = (text == "Next") ? index + 1 : index - 1;
+            index = loopIndex(index);
+            loadOtterByIndex(index);
+        })
+
     </script>
 </body>
 

@@ -24,9 +24,13 @@
   color: var(--white);
   background-color: transparent;
 }
-.card-img-top{
+.otter-index {
+  margin: auto;
 }
 @media only screen and (max-width: 800px) {
+  .otter-library {
+    margin: auto;
+  }
 }
 .btn,
 button {

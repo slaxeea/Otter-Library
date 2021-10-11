@@ -6,9 +6,9 @@ function loadOtters(query) {
     localStorage.setItem("data", JSON.stringify(otters));
     $.each(otters, function (index, otter) {
       divstring = `  
-    <div class="col">
-      <div class="card h-100 w-75" >
-        <img src="${otter.img}" class="card-img-top" alt="otter pic">
+    <div class="col-lg-6 col">
+      <div class="card h-100 w-75 otter-library" >
+        <img src="${otter.imgs[0]}" class="card-img-top" alt="otter pic">
           <div class="card-body">
             <h5 class="card-title">${otter.common}</h5>
             <p class="card-text">${otter.desc}</p>
@@ -53,9 +53,9 @@ function loadOtterByIndex(index) {
   data = JSON.parse(localStorage.getItem("data"));
   otter = data[index];
   let divstring = `
-      <div class="col">
+      <div class="col-lg-7 col otter-index">
             <div class="card h-200 w-175" >
-                <img src="${otter.img}" id="card-img-top" class="img-fluid rounded-start" alt="otter pic">
+                <img src="${otter.imgs[0]}" id="card-img-top" style="max-height==class="img-fluid rounded-start" alt="otter pic">
                 <div class="card-body">
                   <h5 class="card-title">${otter.common}</h5>
                   <p class="card-text">${otter.desc}</p>
