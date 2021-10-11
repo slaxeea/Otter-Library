@@ -1,5 +1,6 @@
 function loadOtters(query) {
   empty();
+  count =0;
   $.getJSON("otters.json", function (data) {
     otters = data.otters;
     stack = $(window).width() > 800 ? true : false;
@@ -32,8 +33,16 @@ function loadOtters(query) {
         name.includes(query)
       ) {
         $("#ankor").append(divstring);
+        count++;
       }
     });
+    if(count==0){    
+      $("#ankor").append(`
+      <div class="col-lg-6 col" style="margin: 5%">
+        <h5>No otters found :( </h5>
+      </div>
+      `);
+    }
   });
 }
 function loadOneOtter(common) {
