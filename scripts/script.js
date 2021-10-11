@@ -1,6 +1,6 @@
 function loadOtters(query) {
   empty();
-  count =0;
+  count = 0;
   $.getJSON("otters.json", function (data) {
     otters = data.otters;
     stack = $(window).width() > 800 ? true : false;
@@ -36,7 +36,7 @@ function loadOtters(query) {
         count++;
       }
     });
-    if(count==0){    
+    if (count == 0) {
       $("#ankor").append(`
       <div class="col-lg-6 col" style="margin: 5%">
         <h5>No otters found :( </h5>
@@ -76,7 +76,7 @@ function loadOtterByIndex(index) {
       `;
   $("#ankor").append(divstring);
 }
-function getWikipedia(article){
+function getWikipedia(article) {
   $.ajax({
     type: "GET",
     url: `http://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=${article}&callback=?`,
@@ -84,11 +84,10 @@ function getWikipedia(article){
     async: false,
     dataType: "json",
     success: function (data, textStatus, jqXHR) {
-        console.log(data.parse);
+      console.log(data.parse);
     },
-    error: function (errorMessage) {
-    }
-});
+    error: function (errorMessage) {},
+  });
 }
 function redirect(index) {
   console.log(index);
@@ -105,5 +104,34 @@ function loopIndex(index) {
 function empty() {
   $(".col").each(function () {
     $(this).remove();
+  });
+}
+
+function loadImages(query) {
+  empty();
+  data = JSON.parse(localStorage.getItem("data"));
+  $.each(data, function (i, otter) {
+    let name = otter.name.toString().toLowerCase();
+    let common = otter.common.toString().toLowerCase();
+    query = query.toString().toLowerCase();
+    if (
+      query == "" ||
+      name == query ||
+      common == query ||
+      common.includes(query) ||
+      name.includes(query)
+    ) {
+      images = otter.imgs;
+      console.log(images);
+      $.each(images, function (index, img) {
+        divstring = ` 
+      <div class="col-md-4 col otter-index">
+      <div class="card h-200 w-175" >
+        <img src="${img}" id="card-img-top" class="card-img-top" alt="otter pic">         
+      </div>
+    </div>`;
+        $("#ankor").append(divstring);
+      });
+    }
   });
 }
