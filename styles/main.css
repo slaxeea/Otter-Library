@@ -11,10 +11,10 @@
   overflow-x: hidden;
 }
 .title {
-    margin: 5%;
+  margin: 5%;
 }
-.navbar{
-    margin-bottom: 2%;
+.navbar {
+  margin-bottom: 2%;
 }
 .card {
   border: 1px solid var(--grey);
@@ -22,24 +22,38 @@
   margin-top: 2%;
   margin-bottom: 2%;
   color: var(--white);
-  background-color:transparent;
+  background-color: transparent;
 }
-.btn, button{
-    color: var(--white);
-    background-color: transparent;
-    border: 1px solid var(--grey);
-    border-radius: 5px;
+.card-img-top{
 }
-.btn:hover, button:hover{
-    color: var(--white);
-    background-color: transparent;
-    border: 1px solid var(--grey);
-    border-radius: 5px;
+@media only screen and (max-width: 800px) {
 }
-.link{  
+.btn,
+button {
+  color: var(--white);
+  background-color: transparent;
+  border: 1px solid var(--grey);
+  border-radius: 5px;
+}
+.btn:hover,
+button:hover {
+  color: var(--white);
+  background-color: transparent;
+  border: 1px solid var(--grey);
+  border-radius: 5px;
+}
+.link {
   color: var(--white);
   text-decoration: none;
-}.link:hover{  
+}
+.link:hover {
   color: var(--white);
   text-decoration: none;
+}
+.pagination-container {
+  text-align: center;
+}
+.d-flex {
+  display: flex !important;
+  margin-right: 10%;
 }
