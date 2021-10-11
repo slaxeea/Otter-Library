@@ -72,7 +72,7 @@ button:hover, .nav-link:hover {
   display: flex !important;
   margin-right: 10%;
 }
-.tab-content{
+.tab-content, #tab{
   margin-left: 5%;
 }
 .nav-tabs{
