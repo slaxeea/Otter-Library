@@ -26,6 +26,8 @@
   margin-bottom: 2%;
   color: var(--white);
   background-color: transparent;
+}
+.card-in-col{
   width: 77%;
 }
 .otter-index {
@@ -72,4 +74,7 @@ button:hover, .nav-link:hover {
 }
 .nav-tabs{
   border-bottom:none;
+}
+.site-desc{
+  margin-left: 1%;
 }

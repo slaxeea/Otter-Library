@@ -34,11 +34,18 @@
     <div class="title">
         <nav class="navbar navbar-light">
             <div class="container-fluid">
-                <h2 class="navbar-text">Otter Library</h2>
+                <a href="index.html" class="link">
+                    <h2 class="navbar-text">Otter Library</h2>
+                </a>
                 <form class="d-flex" id="form">
                     <input id="search-text" class="form-control me-2" placeholder="Search" aria-label="Search">
                     <button id="search-btn" class="btn btn-outline-success" type="submit">Search</button>
                 </form>
+            </div>
+        </nav>
+        <nav class="navbar navbar-light">
+            <div class="container-fluid">
+                <p class="navbar-text">Images of otters under CC licence. Sorted by species</p>
             </div>
         </nav>
 
@@ -62,7 +69,7 @@
 
     <script>
         $(document).ready(function () {
-           loadImages("");
+            loadImages("");
         })
         $("#form").submit(function (e) {
             e.preventDefault();

@@ -8,7 +8,7 @@ function loadOtters(query) {
     $.each(otters, function (index, otter) {
       divstring = ` 
     <div class="col-lg-6 col">
-      <div class="card h-100 justify-content-center otter-library" >
+      <div class="card card-in-col h-100 justify-content-center otter-library" >
         <img src="${otter.imgs[0]}" class="card-img-top" alt="otter pic">
           <div class="card-body">
             <h5 class="card-title">${otter.common}</h5>
@@ -122,7 +122,6 @@ function loadImages(query) {
       name.includes(query)
     ) {
       images = otter.imgs;
-      console.log(images);
       $.each(images, function (index, img) {
         divstring = ` 
       <div class="col-md-4 col otter-index">
