@@ -37,6 +37,9 @@
   .otter-library {
     margin: auto;
   }
+  .card-in-col{
+    width: 90%;
+  }
 }
 .btn,
 button, .nav-link {
