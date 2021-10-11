@@ -33,16 +33,18 @@
   }
 }
 .btn,
-button {
+button, .nav-link {
   color: var(--white);
   background-color: transparent;
   border: 1px solid var(--grey);
+  border-color: var(--grey);
   border-radius: 5px;
 }
 .btn:hover,
-button:hover {
+button:hover, .nav-link:hover {
   color: var(--white);
   background-color: transparent;
+  border-color: var(--grey);
   border: 1px solid var(--grey);
   border-radius: 5px;
 }
@@ -60,4 +62,10 @@ button:hover {
 .d-flex {
   display: flex !important;
   margin-right: 10%;
+}
+.tab-content{
+  margin-left: 5%;
+}
+.nav-tabs{
+  border-bottom:none;
 }

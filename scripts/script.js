@@ -5,7 +5,7 @@ function loadOtters(query) {
     stack = $(window).width() > 800 ? true : false;
     localStorage.setItem("data", JSON.stringify(otters));
     $.each(otters, function (index, otter) {
-      divstring = `  
+      divstring = ` 
     <div class="col-lg-6 col">
       <div class="card h-100 w-75 otter-library" >
         <img src="${otter.imgs[0]}" class="card-img-top" alt="otter pic">
