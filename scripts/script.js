@@ -76,21 +76,8 @@ function loadOtterByIndex(index) {
       `;
   $("#ankor").append(divstring);
 }
-function getWikipedia(article) {
-  $.ajax({
-    type: "GET",
-    url: `http://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=${article}&callback=?`,
-    contentType: "application/json; charset=utf-8",
-    async: false,
-    dataType: "json",
-    success: function (data, textStatus, jqXHR) {
-      console.log(data.parse);
-    },
-    error: function (errorMessage) {},
-  });
-}
+
 function redirect(index) {
-  console.log(index);
   localStorage.setItem("otterIndex", index);
   window.location.href = "otter.html";
 }
@@ -126,8 +113,10 @@ function loadImages(query) {
         divstring = ` 
       <div class="col-md-4 col otter-index otter-imgs">
       <div class="card h-200 w-175" >
-        <img src="${img}" id="card-img-top" class="card-img-top" alt="otter pic">         
-      </div>
+        <img src="${img}" class="card-img-top" alt="otter pic" id=${i} onclick="redirect($(this).attr('id'))">         
+        
+        </div>    
+        </div>
     </div>`;
         $("#ankor").append(divstring);
       });
