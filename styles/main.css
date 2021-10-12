@@ -81,3 +81,8 @@ button:hover, .nav-link:hover {
 .site-desc{
   margin-left: 1%;
 }
+.tree-container{
+  border: 1px solid var(--grey);
+  height: 65vh;
+  background-color: transparent;
+}
