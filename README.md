@@ -8,6 +8,6 @@ https://slaxeea.github.io/Otter-Library/
 
 I have used Bootstrap and jQuery to help me with the layout and functionality of the website.
 
-The information on the website is from wikipedia, and so are the images. I cannot guarantee the flawlessnes of the information. If you do find something wrong or have feedback, please feel free to contact me via email at "kappelers77@gmail.com"
+The information on the website is from wikipedia, and so are the images. I cannot guarantee the flawlessnes of the information.
 
 Thank you and have a great day :)
