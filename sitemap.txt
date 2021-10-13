@@ -1,4 +1,3 @@
-slaxeea.github.io/Otter-Library/
 slaxeea.github.io/Otter-Library/index.html
 slaxeea.github.io/Otter-Library/image-library.html
 slaxeea.github.io/Otter-Library/otter.html
