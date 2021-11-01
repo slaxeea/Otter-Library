@@ -153,10 +153,11 @@ function loadCategoryOtters(category) {
 
 function loadRandomImage() {
   $.getJSON("otters.json", function (data) {
+    localStorage.setItem("data", data);
     index = Math.floor(Math.random() * 13);
     images = data.otters[index].imgs;
     img = images[Math.floor(Math.random() * images.length)];
-    divstring = `<img src="${img}" class="random-image"/>`;
+    divstring = `<img src="${img}" class="random-image" id="${index}"  onclick="redirect($(this).attr('id'))"/>`;
 
     $(`#ankor`).append(divstring);
   });
@@ -165,5 +166,14 @@ function loadRandomImage() {
 function saveDataIntoLS() {
   $.getJSON("otters.json", function (data) {
     localStorage.setItem("data", JSON.stringify(data));
+  });
+}
+
+function redirectToRandomImage() {
+  $.getJSON("otters.json", function (data) {
+    index = Math.floor(Math.random() * 13);
+    images = data.otters[index].imgs;
+    img = images[Math.floor(Math.random() * images.length)];
+    window.location.href = img;
   });
 }
