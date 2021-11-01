@@ -152,3 +152,13 @@ function loadCategoryOtters(category) {
     }
   });
 }
+
+function loadRandomImage(){
+  index = Math.floor(Math.random()*13);  
+  data = JSON.parse(localStorage.getItem("data"));
+  images = data[index].imgs;
+  img = images[Math.floor(Math.random() *  images.length )];
+  divstring = `<img src="${img}" class="random-image"/>`
+  
+  $(`#ankor`).append(divstring);
+}

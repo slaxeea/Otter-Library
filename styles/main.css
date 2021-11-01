@@ -86,3 +86,13 @@ button:hover, .nav-link:hover {
   height: 65vh;
   background-color: transparent;
 }
+
+.random-image{
+  margin-top: 2vh;
+  max-width: 90vw;
+  max-height: 75vh;
+}
+
+.random-image-container{
+  width: 100vw;
+}
