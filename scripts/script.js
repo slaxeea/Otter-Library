@@ -145,20 +145,25 @@ function loadCategoryOtters(category) {
           </div>
         </div>
     </div> `;
-    if (
-      tags.includes(category)
-    ) {
+    if (tags.includes(category)) {
       $(`#${category}-ankor`).append(divstring);
     }
   });
 }
 
-function loadRandomImage(){
-  index = Math.floor(Math.random()*13);  
-  data = JSON.parse(localStorage.getItem("data"));
-  images = data[index].imgs;
-  img = images[Math.floor(Math.random() *  images.length )];
-  divstring = `<img src="${img}" class="random-image"/>`
-  
-  $(`#ankor`).append(divstring);
+function loadRandomImage() {
+  $.getJSON("otters.json", function (data) {
+    index = Math.floor(Math.random() * 13);
+    images = data.otters[index].imgs;
+    img = images[Math.floor(Math.random() * images.length)];
+    divstring = `<img src="${img}" class="random-image"/>`;
+
+    $(`#ankor`).append(divstring);
+  });
+}
+
+function saveDataIntoLS() {
+  $.getJSON("otters.json", function (data) {
+    localStorage.setItem("data", JSON.stringify(data));
+  });
 }
