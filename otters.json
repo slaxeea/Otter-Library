@@ -12,11 +12,11 @@
         "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/The_Eurasian_otter_%28Lutra_lutra%29.jpg/640px-The_Eurasian_otter_%28Lutra_lutra%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Otter_at_Buckfast_Otter_Sanctuary_8.jpg/640px-Otter_at_Buckfast_Otter_Sanctuary_8.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Otter_at_Buckfast_Otter_Sanctuary_4.jpg/640px-Otter_at_Buckfast_Otter_Sanctuary_4.jpg",
-	"https://upload.wikimedia.org/wikipedia/commons/0/09/Sleeping_Otter_-_geograph.org.uk_-_575811.jpg",
-	"https://upload.wikimedia.org/wikipedia/commons/f/fa/Otter_at_Hoga_Ness_-_geograph.org.uk_-_556195.jpg",
-	"https://upload.wikimedia.org/wikipedia/commons/d/df/Fischotter_Lutra_lutra.jpg",
-	"https://upload.wikimedia.org/wikipedia/commons/3/39/Fischotter_Lutra_lutra3.jpg",
-	"https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Otter_in_winter.jpg/1280px-Otter_in_winter.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/0/09/Sleeping_Otter_-_geograph.org.uk_-_575811.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/fa/Otter_at_Hoga_Ness_-_geograph.org.uk_-_556195.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/df/Fischotter_Lutra_lutra.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/39/Fischotter_Lutra_lutra3.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Otter_in_winter.jpg/1280px-Otter_in_winter.jpg"
       ],
       "tags": ["Europe", "Asia", "Africa"],
       "detail": "The Eurasian otter (Lutra lutra), also known as the European otter, Eurasian river otter, common otter, and Old World otter, is a semiaquatic mammal native to Eurasia. The most widely distributed member of the otter subfamily (Lutrinae) of the weasel family (Mustelidae), it is found in the waterways and coasts of Europe, many parts of Asia, and parts of northern Africa. The female is shorter than the male. The otter's average body weight is 7 to 12 kg (15 to 26 lb), although occasionally a large old male may reach up to 17 kg (37 lb). The record-sized specimen, reported by a reliable source but not verified, weighed over 24 kg (53 lb). The Eurasian otter is the most widely distributed otter species, its range including parts of Asia and Africa, as well as being spread across Europe, south to Palestine. The study examined the tissue on the teeth of the skulls and determined the genetic variability based on DNA analysis. In conclusion, the study discovered that despite the population declines, the Eurasian otter was not a victim of declining genetic variability. The decline in population of native freshwater fishes in the rivers of Iberia, which is the preferred food of Eurasian otters, along with the expansion of exotic fish species like centrarchids could potentially put Eurasian otters at risk for extinction."
@@ -129,7 +129,6 @@
       "imgs": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lfelina.jpg/1280px-Lfelina.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/e/e9/Lontra_felina_03.jpg"
-
       ],
       "tags": ["South-America"],
       "detail": "The marine otter (Lontra felina), not to be confused with sea otter, is a rare and relatively unknown South American mammal of the weasel family (Mustelidae). The tail measures 30 to 36 cm (12 to 14 in). Its fur is coarse, with guard hairs measuring up to 2 cm (0.79 in) in length covering dense, insulating underfur. The marine otter does not display sexual dimorphism. Marine otters are found in littoral areas of southwestern South America, close to shore and in the intertidal areas of northern Peru, along the entire coast of Chile, and the extreme southern reaches of Argentina. Occasional vagrant sightings still occur as far afield as the Falkland Islands. Fighting takes place on prominent rocks above the waterline, which are also used for resting, feeding, and grooming. Parents bring food to the pups and teach them to hunt. Marine otters are rare and are protected under Peruvian, Chilean, and Argentine law. In the past, they were extensively hunted both for their fur and due to perceived competition with fisheries."
@@ -162,9 +161,9 @@
         "https://upload.wikimedia.org/wikipedia/commons/1/1e/Oriental_Small-clawed_Otter_%28Aonyx_cinerea%29_%284%29.JPG",
         "https://upload.wikimedia.org/wikipedia/commons/f/fa/Oriental_Small-clawed_Otter_%28Aonyx_cinerea%29_%283%29.JPG",
         "https://upload.wikimedia.org/wikipedia/commons/d/d8/Oriental_Small-clawed_Otter_%28Aonyx_cinerea%29_%282%29.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b2/Oriental_Small-clawed_Otter_%28Aonyx_cinerea%29_%281%29.JPG"
-
-        ],
+        "https://upload.wikimedia.org/wikipedia/commons/b/b2/Oriental_Small-clawed_Otter_%28Aonyx_cinerea%29_%281%29.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/d/da/Small-clawed_otter_%28Aonyx_cinereus%29.jpg"
+      ],
       "tags": ["Asia"],
       "detail": "Species of mammal The Asian small-clawed otter (Aonyx cinereus), also known as the oriental small-clawed otter and the small-clawed otter, is an otter species native to South and Southeast Asia. Today, a population of at least 60 hybrid otters are present in Singapore. Closeup of a small-clawed otter's mouth The Asian small-clawed otter has deep brown fur with some rufous tinge on the back, but paler below. Its paws are narrow with short digits that are webbed to the last joint. In head-to-body length, it ranges from 470 to 610 mm (18.4 to 24 in) with a 260 to 350 mm (10.2 to 13.6 in) long tail. It lives in freshwater wetlands such as swamps, meandering rivers, irrigated rice fields as well as estuaries, coastal lagoons and tidal pools. Interval between births is at least eight months. About two weeks before parturition, both female and male engage in building a nest."
     },

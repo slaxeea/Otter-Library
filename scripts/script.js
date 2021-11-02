@@ -112,10 +112,10 @@ function loadImages(query) {
       $.each(images, function (index, img) {
         divstring = ` 
       <div class="col-md-4 col otter-index otter-imgs">
-      <div class="card h-200 w-175" >
-        <img src="${img}" class="card-img-top" alt="otter pic" id=${i} onclick="redirect($(this).attr('id'))">         
+        <div class="card h-200 w-175" >
+          <img src="${img}" class="card-img-top" alt="otter pic" id=${i} onclick="redirect($(this).attr('id'))">         
         
-        </div>    
+          </div>    
         </div>
     </div>`;
         $("#ankor").append(divstring);
